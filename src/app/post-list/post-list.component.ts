@@ -8,6 +8,6 @@ import { Component,Input } from "@angular/core";
 
 export class postList{
 
-@Input() postls =[];
+@Input() postls = [];
 
 }
