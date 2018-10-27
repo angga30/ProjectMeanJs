@@ -1,0 +1,8 @@
+<mat-accordion multi="true">
+  <mat-expansion-panel *ngFor="let postls of postls">
+    <mat-expansion-panel-header>
+      {{postls.title}}
+    </mat-expansion-panel-header>
+    <p>{{postls.content}}</p>
+  </mat-expansion-panel>
+</mat-accordion>
